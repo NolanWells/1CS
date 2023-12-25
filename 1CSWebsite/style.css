@@ -1,0 +1,101 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AEB4BD;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li a:hover {
+    background-color: #50BFFF;
+}
+
+.OneCSLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.TitleOne {
+    text-align: center;
+}
+
+.SubOne {
+    text-align: center;
+}
+
+.LearnMore {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    background-color: #50BFFF ;
+    border: none;
+    margin: 4px 2px;
+    display: inline-block;
+    border-radius: 50px;
+    transition-duration: .4s;
+
+}
+
+.LearnMore:hover{
+    background-color: #AEB4BD;
+}
+
+.TitleThree {
+    text-align: left;
+
+}
+
+.GetAQuote {
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+    border: none;
+    margin: 4px 2px;
+    display: inline-block;
+    border-radius: 50px;
+    transition-duration: .4s;
+}
+
+.GetAQuote:hover {
+    background-color: #50BFFF;
+}
+
+.TitleFour{
+    text-align: left;
+}
+
+.SubFour{
+    text-align: left;   
+}
+
+.TitleFive{
+    text-align: center;
+}
+
+.SubFive{
+    text-align: center;
+}
+
+.TitleSix{
+    text-align: right;
+}
+
+.SubSix{
+    text-align: right;
+}
