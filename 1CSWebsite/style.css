@@ -4,7 +4,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: transparent; 
-    /* #AEB4BD; */
 }
 
 li {
@@ -63,12 +62,24 @@ li a:hover {
 
 .TitleOne {
     text-align: center;
-    color: #50BFFF;
+    color: white;
     font-family: 'Jockey One';
 }
 
 .SubOne {
     text-align: center;
+    color: white;
+    font-family: 'Jockey One';
+}
+.TitleTwo {
+    text-align: center;
+    color: black;
+    font-family: 'Jockey One';
+}
+
+.SubTwo {
+    text-align: center;
+    color: black;
     font-family: 'Jockey One';
 }
 
@@ -137,7 +148,8 @@ th {
 }
 
 .OneCSLogoFooter {
-    width: 50%;
+    width: 20%;
+    
 
 }
 
@@ -147,9 +159,13 @@ th {
 
 .body {
     /* background-image: url("../pictures/transparent.png"); */
-    background-image: url("/1CSWebsite/pictures/transparent.png");
+    background-image: url("/1CSWebsite/pictures/whitebackgroud.png");
     background-size: contain;
     background-repeat: no-repeat;
     align-items: center;
     width: 1440px;
+}
+
+.FooterLinks{
+    text-align: center;
 }
