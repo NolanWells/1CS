@@ -161,7 +161,7 @@ th {
 }
 
 .body {
-    background-image: url("/1CSWebsite/pictures/whitebackgroud.png");
+    background-image: url("pictures/whitebackgroud.png");
     background-size: contain;
     background-repeat: no-repeat;
     align-items: center;
