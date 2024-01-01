@@ -15,9 +15,21 @@ function myFunction() {
 
     if (window.pageYOffset > sticky) {
         navbar.classList.add("sticky")
-        
+        var links = document.getElementsByTagName("a");
+        console.log(links)
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].href) {
+                links[i].style.color = "#000000";
+            }
+        }
+
     } else {
         navbar.classList.remove("sticky");
-        console.log("dropping sticky")
+        var links = document.getElementsByTagName("a");
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].href) {
+                links[i].style.color = "white";
+            }
+        }
     }
 }
