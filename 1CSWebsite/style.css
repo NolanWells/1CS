@@ -89,8 +89,6 @@ li a:hover {
     display: flex;
     color: white;
     font-size: medium;
-    justify-content: center;
-    align-items: center;
     background-color: #50BFFF;
     border: none;
     margin: 4px 2px;
@@ -100,6 +98,7 @@ li a:hover {
     font-family: 'Jockey One';
 
 }
+  
 
 .LearnMore:hover {
     background-color: #AEB4BD;
@@ -150,13 +149,15 @@ th {
 }
 
 .OneCSLogoFooter {
-    width: 20%;
+    width: 85%;
 
 
 }
 
 .footer {
     background-color: #AEB4BD;
+    width: 1440px;
+
 }
 
 .body {
@@ -167,13 +168,30 @@ th {
     width: 1440px;
 }
 
-.FooterLinks {
-    text-align: center;
+.footerNavLinks {
+    justify-content: center;
+    font-family: 'Jockey One';
+    color: white;
+    transition-duration: .4s;
+    font-size: 140%;
+    text-decoration: none;
+}
+
+
+
+.footerNavLinks:hover{
+    color: #50BFFF;
+}
+
+.footerText{
+    font-family: 'Jockey One';
+    color: white;
+    font-size: 140%;
 }
 
 input {
     
-    width: 50%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -181,13 +199,13 @@ input {
 }
 
 label {
-    align-items: center;
     color: black;
     font-family: 'Jockey One';
     font-size: large;
 }
 
 form {
+    display: inline-block;
     text-align: center;
     width: 50%;
     height: 50%;
@@ -214,3 +232,12 @@ form {
 .formButton:hover {
     background-color: #AEB4BD;
 }
+
+.MediaFooter{
+    padding: 10px;
+}
+
+.FooterMediaLinks{
+    padding: 10px;
+}
+
